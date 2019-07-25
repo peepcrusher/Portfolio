@@ -68,8 +68,10 @@ header nav li{
 }
 
 .container-content{
+    position: relative;
     color: rgb(88, 127, 163);
-    margin: 20% 10%;
+    top: 40%;
+    left: 8%;
     width: 33%;
     align-content: center;
     line-height: 50px;

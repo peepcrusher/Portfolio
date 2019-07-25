@@ -14,14 +14,18 @@ nav{
 }
 
 a{
-    color: pink;
+    color: rgb(247, 148, 164);
     text-decoration: none;
     opacity: .70;
 }
 
 a:hover{
     opacity:1;
-    color:rgb(122, 11, 45)344
+    color: rgb(19, 83, 143);
+}
+
+li:hover{
+    transform: scale(1.1);
 }
 
 header{

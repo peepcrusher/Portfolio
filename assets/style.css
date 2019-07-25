@@ -94,3 +94,33 @@ header nav li{
     width: 50px;
     color: white;
 }
+
+.projects{
+    display: block;
+    position: relative;
+    top: 10%;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(112, 114, 112, 0.247);
+    border-radius:10px;
+    align-content: center;
+}
+
+.project-card{
+    display: inline-block;
+    height: 50%;
+    width: 24.5%;
+    border: 3px solid black;
+    background-color: blue;
+    margin-right: .22%;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-img{
+ position: relative;
+ display: block;
+}

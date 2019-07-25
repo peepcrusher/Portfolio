@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: normal 16px sans-serif;
+    color: rgb(36,36,36)
+}
+
+nav{
+    list-style: none;
+}
+
+a{
+    color: pink;
+    text-decoration: none;
+    opacity: .70;
+}
+
+a:hover{
+    opacity:1;
+    color:rgb(122, 11, 45)344
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+    animation: 1s fadein .5s forwards;
+    opacity: 0; 
+    color: rgb(143, 24, 30);
+}
+
+@keyframes fadein{
+    100%{
+        opacity: 1;
+        transform: translateX(50px);
+    }
+}
+
+header nav{
+    display:flex;
+    margin-right: -15px;
+    align-content: right;
+}
+
+header nav li{
+    margin: 0 10px;
+}
+
+.container .background{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    z-index: -1;
+}

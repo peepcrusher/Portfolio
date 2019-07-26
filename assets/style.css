@@ -77,8 +77,41 @@ header nav li{
     line-height: 50px;
 }
 
+.container-text{
+    opacity: 1;
+    animation-name: slidein;
+    animation-delay: none;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes slidein{
+0%{
+    transform: translateX(50px);
+    opacity: 0;
+}
+100%{
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+
 .my-name{
     color: rgb(131, 36, 36);
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-delay: none;
+    animation-timing-function: linear;
+}
+
+@keyframes colorchange{
+    0%{
+        color: rgb(88, 127, 163);
+    }
+    100%{
+        color: rgb(131, 36, 36);
+
+    }
 }
 
 .socials{
@@ -123,4 +156,15 @@ header nav li{
 .project-img{
  position: relative;
  display: block;
+ height: 80%;
+ width: 100%
+}
+
+.links{
+    height:20%;
+
+}
+
+.github .live {
+    display: block;
 }

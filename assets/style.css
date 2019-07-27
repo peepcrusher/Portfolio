@@ -145,7 +145,7 @@ header nav li{
 .project-card{
     position: relative;
     display: inline-block;
-    height: 45%;
+    height: 48.5%;
     width: 32.5%;
     border: 3px solid black;
     background-color: black;
@@ -200,9 +200,8 @@ header nav li{
     color: white;
 }
 
-section{
-    height:10%;
-    width: 100%;
-    background-color: rgba(112, 114, 112, 0.247);
+.github-link{
+    color: white;
+    display: block;
+    margin: 5px 0 0 25px;
 }
-

@@ -137,9 +137,21 @@ header nav li{
     height: 80%;
     width: 80%;
     margin: auto;
+    opacity: 1;
     background-color: rgba(112, 114, 112, 0.247);
     border-radius:10px;
     align-content: center;
+    animation-name: fadein;
+    animation-delay: none;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    
+}
+
+
+@keyframes fadein{
+    0%{opacity: 0}
+    100%{ opacity: 1;}
 }
 
 .project-card{

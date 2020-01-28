@@ -68,6 +68,10 @@ header nav li{
     z-index: -1;
 }
 
+.background{
+    background-image: url(./img/RamonSalinero.jpg);
+}
+
 .container-content{
     font-family: 'Noto Sans JP', sans-serif;
     position: relative;
@@ -216,4 +220,24 @@ header nav li{
     color: white;
     display: block;
     margin: 5px 0 0 25px;
+    float: left;
+}
+
+.deployed-link{
+    color: white;
+    display: block;
+    margin: 5px 10px 0 25px;
+    float: right;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: #1d1717;
+    }
+    .background {
+        background-image: none;
+    }
+    .project-card{
+        width: 100%;
+    }
 }

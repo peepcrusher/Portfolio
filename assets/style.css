@@ -237,6 +237,9 @@ header nav li{
     .background {
         background-image: none;
     }
+    .container-content{
+        width: 80%;
+    }
     .project-card{
         width: 100%;
     }

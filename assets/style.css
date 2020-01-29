@@ -12,6 +12,7 @@ html{
 
 nav{
     list-style: none;
+    margin: 10px;
 }
 
 a{
@@ -55,7 +56,7 @@ header nav{
 }
 
 header nav li{
-    margin: 0 10px;
+    margin: 0 10px; 
 }
 
 .container .background{
@@ -230,7 +231,13 @@ header nav li{
     float: right;
 }
 
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
+    .project-card{
+        min-width: 49%;
+    }
+}
+
+@media screen and (max-width: 640px){
     body{
         background-color: #1d1717;
     }
@@ -239,6 +246,10 @@ header nav li{
     }
     .container-content{
         width: 80%;
+        margin: none;
+    }
+    .container-text{
+        min-width: 80%;
     }
     .project-card{
         width: 100%;
